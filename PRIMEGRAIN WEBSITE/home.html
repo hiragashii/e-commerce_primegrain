@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Home page of Your Website" />
+  <link rel="stylesheet" href="assets/css/navigation.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="icon" type="image/x-icon" href="assets/images/primegrain_logo.png">
+  <title>PrimeGrain</title>
+
+</head>
+<body>
+  <header>
+    <img src="assets/images/primegrain_logo.png" alt="PrimeGrain Logo" style="width:100px; height:100px; display:block; margin:0 auto;">
+    <h1 style = "text-align: center;">PrimeGrain</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="home.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to PrimeGrain!</h2>
+      <p><a href="services.html" style="text-decoration: none;">Explore our services:</a></p>
+    </section>
+
+    <section>
+      <h2 style="text-align: center;">What we sell</h2>
+      <div class="grid">
+        <article class="card">
+          <h3 style="text-align: center;">Long-grain</h3>
+          <img src="assets/images/long-grain.jpg" alt="Long-grain rice">
+          <p>Long and slender grains that stay light and separate after cooking. Commonly used for dishes like Pilaf or Fried rice.</p>
+        </article>
+        <article class="card">
+          <h3 style="text-align: center;">Medium-grain</h3>
+          <img src="assets/images/medium-grain.jpeg" alt="Medium-grain rice">
+          <p>Slightly shorter and wider grains that cook up tender and moist. It tends to be a bit creamy, making it good for dishes like Risotto.</p>
+        </article>
+        <article class="card">
+          <h3 style="text-align: center;">Short-grain</h3>
+          <img src="assets/images/short-grain.jpg" alt="Short-grain rice">
+          <p>Small, round grains that become soft and sticky when cooked. Often used in dishes where rice needs to hold together like Sushi.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Website. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Auto-update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+``

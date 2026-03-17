@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header,
+footer {
+    background: rgb(117, 196, 220);
+    color: #fff;
+    padding: 16px;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a[aria-current="page"] {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+main {
+    padding: 24px;
+}
+
+.grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 16px;
+    background: #fff;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+.inquire-btn {
+    background-color: hsl(0, 73%, 47%);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.inquire-btn:hover {
+    background-color: #ec4040;
+}

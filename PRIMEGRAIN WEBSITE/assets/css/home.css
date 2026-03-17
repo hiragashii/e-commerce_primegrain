@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header, footer {
+    background: rgb(117, 196, 220);
+    color: #fff;
+    padding: 16px;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a[aria-current="page"] {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+main {
+    padding: 24px;
+}
+
+.hero {
+    background-image: url("../images/background_1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 300px;
+    margin-bottom: 100px;
+    padding: 40px;
+}
+
+.hero p {
+    text-align: left;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 16px;
+}
+
+.card {
+    aspect-ratio: 1 / 1;
+    padding: 20px;
+    background: #9ef2ff2f;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 4px;
+}

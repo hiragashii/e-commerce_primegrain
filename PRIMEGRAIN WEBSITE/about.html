@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Home page of Your Website" />
+  <link rel="stylesheet" href="assets/css/navigation.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+  <link rel="icon" type="image/x-icon" href="assets/images/primegrain_logo.png">
+  <title>PrimeGrain</title>
+
+</head>
+<body>
+  <header>
+    <img src="assets/images/primegrain_logo.png" alt="PrimeGrain Logo" style="width:100px; height:100px; display:block; margin:0 auto;">
+    <h1 style = "text-align: center;">PrimeGrain</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <header>
+      <h2>About Us</h2>
+      <p>Our story, mission, and values.</p>
+    </header>
+
+    <section>
+      <h3>Who We Are</h3>
+      <p>We are a trusted supplier of premium-quality rice, committed to bringing fresh, nutritious, and affordable rice to every household. Our team carefully selects and delivers the best varieties of rice to ensure quality in every grain.</p>
+    </section>
+
+    <section>
+      <h3>Our Mission</h3>
+      <p>Our mission is to provide high-quality rice that supports healthy living while maintaining affordability and sustainability. We strive to serve our customers with honesty, reliability, and excellence.</p>
+    </section>
+
+    <section>
+      <h3>Timeline</h3>
+      <ul>
+        <li><strong>2024:</strong> Project started</li>
+        <li><strong>2026:</strong> Reached key milestone</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> PrimeGrain. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+``

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Services page of Your Website" />
+  <link rel="stylesheet" href="assets/css/navigation.css">
+  <link rel="stylesheet" href="assets/css/services.css">
+  <link rel="icon" type="image/x-icon" href="assets/images/primegrain_logo.png">
+  <title>PrimeGrain</title>
+
+</head>
+<body>
+  <header>
+    <img src="assets/images/primegrain_logo.png" alt="PrimeGrain Logo" style="width:100px; height:100px; display:block; margin:0 auto;">
+    <h1 style = "text-align: center;">PrimeGrain</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <header>
+      <h2>Our Services</h2>
+      <p style="text-align: center;">We are committed to providing complete rice solutions that ensure quality, convenience, and customer satisfaction..</p>
+    </header>
+
+    <section aria-label="Service list" class="grid">
+      <article class="card">
+        <h3>Service A:Rice Distribution</h3>
+        <p>We supply different varieties of rice such as jasmine, long grain,short grain,medium grain and local rice. Each product is carefully handled to maintain its quality.</p>
+        <a href="contact.html" class="inquire-btn">Inquire →</a>
+      </article>
+      <article class="card">
+        <h3>Service B:Bulk & Retail Orders</h3>
+        <p>We offer competitive pricing for bulk orders and flexible retail options to meet the needs of various customers.</p>
+        <a href="contact.html" class ="inquire-btn">Inquire →</a>
+      </article>
+      <article class="card">
+        <h3>Service C:Door-to-Door Delivery</h3>
+        <p>We provide convenient door-to-door delivery services for our customers, ensuring that fresh rice reaches them in a timely manner.</p>
+        <a href="contact.html" class="inquire-btn">Inquire →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> PrimeGrain. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

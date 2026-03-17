@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+nav {
+    background: var(--primary);
+    padding: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+nav a[aria-current="page"] {
+    border-bottom: 2px solid white;
+}
